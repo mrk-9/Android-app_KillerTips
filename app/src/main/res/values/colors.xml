@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="status_color">#5d625c</color>
+    <color name="back_color">#8dacae</color>
+    <color name="footer_color">#e1e1e1</color>
+    <color name="white_color">#ffffff</color>
+    <color name="grid_color">#6c726b</color>
+    <color name="menu_color">#444844</color>
+    <color name="menu_text_color">#aaaaaa</color>
+    <color name="cost_color">#FFB8B36D</color>
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+</resources>

@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+    defaultConfig {
+        applicationId "com.onlinecreativetraining.killertipsdavinciresolve"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile files('libs/android-async-http-1.4.9.jar')
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile files('libs/mailchimp.jar')
+    compile 'com.hkm.loyalslider:library:1.9.4'
+    compile 'com.snappydb:snappydb-lib:0.5.2'
+}

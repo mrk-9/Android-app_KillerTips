@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/menu_img"
+            android:src="@drawable/icon_home"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/text1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/menu_text_color"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="normal|bold" />
+    </RelativeLayout>
+
+</LinearLayout>

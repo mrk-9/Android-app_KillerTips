@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:paddingLeft="7dp"
+    android:paddingTop="2dp"
+    android:paddingRight="7dp"
+    android:paddingBottom="2dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgTip"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:src="@drawable/placeholder" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:background="@color/grid_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="caption"
+            android:textSize="14sp"
+            android:id="@+id/txtCaption"
+            android:textColor="@android:color/white"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Category"
+            android:id="@+id/txtCategory"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

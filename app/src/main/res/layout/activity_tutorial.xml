@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/layout_corner">
+
+        <com.hkm.slider.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            custom:auto_cycle="false"
+            custom:pager_animation="Default"/>
+
+    </LinearLayout>
+
+    <com.hkm.slider.Indicators.PagerIndicator
+        android:id="@+id/page_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        custom:unselected_color="@color/menu_color"
+        custom:selected_color="@android:color/white">
+    </com.hkm.slider.Indicators.PagerIndicator>
+
+    <LinearLayout
+        android:id="@+id/lyt_skip"
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/signup_button_bg"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKIP TO SIN UP"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="?android:dividerHorizontal"
+    android:showDividers="middle"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:background="@color/menu_color"
+    android:gravity="center_horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/menuHome"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Home"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuPurchase"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Purchase More Tips"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuAll"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Show All Tips"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuMedia"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Media"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuEditing"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Editing"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuColor"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Color"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuDelivery"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Delivery"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuGeneral"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="General"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuFavourites"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Show Favourites"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuPurchasedTips"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Show Purchased Tips"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuNewsletter"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Signup For Our Newsletter"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuCredits"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Credits"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/menuTerms"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Terms of Use"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tvLogout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="2dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Logout"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/menu_text_color"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

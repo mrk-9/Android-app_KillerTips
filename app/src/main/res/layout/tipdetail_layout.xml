@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/imgDetail"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/placeholder" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="CATEGORY"
+                    android:id="@+id/detail_category"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/menu_color" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/detail_favourite"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/unfavourite"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Title"
+                    android:id="@+id/detail_title"
+                    android:textSize="16sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/menu_color" />
+            </RelativeLayout>
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/detail_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

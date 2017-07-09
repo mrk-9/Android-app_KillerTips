@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    tools:context=".Activities.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/back_color">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_image"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/newsletter_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="User Email"
+        android:textColorHint="@android:color/darker_gray"
+        android:paddingLeft="8dp"
+        android:textSize="14sp"
+        android:background="@drawable/text_corner"
+        android:textColor="@color/menu_color" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/newsletter_firstname"
+            android:hint="First Name"
+            android:textSize="14sp"
+            android:textColorHint="@android:color/darker_gray"
+            android:paddingLeft="8dp"
+            android:background="@drawable/text_corner"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/menu_color" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/newsletter_lastename"
+            android:hint="Last Name"
+            android:textSize="14sp"
+            android:textColorHint="@android:color/darker_gray"
+            android:paddingLeft="8dp"
+            android:background="@drawable/text_corner"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/menu_color" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/newsletter_company"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Your Company (optional)"
+        android:textColorHint="@android:color/darker_gray"
+        android:paddingLeft="8dp"
+        android:textSize="14sp"
+        android:background="@drawable/text_corner"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/menu_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SIGN UP"
+        android:textSize="16sp"
+        android:id="@+id/newsletter_signup"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white_color"
+        android:background="@drawable/button_style" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CANCEL"
+        android:textSize="16sp"
+        android:id="@+id/newsletter_cancel"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white_color"
+        android:background="@drawable/button_style"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>
